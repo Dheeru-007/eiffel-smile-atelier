@@ -387,7 +387,7 @@ function Doctor() {
           </Reveal>
           <Reveal delay={0.25} className="mt-16 grid grid-cols-2 gap-6 border-t border-cream/15 pt-10">
             {[
-              ["Educație", "UMF „Victor Babeș" · Timișoara"],
+              ["Educație", 'UMF „Victor Babeș" · Timișoara'],
               ["Specializare", "Implantologie — Geneva"],
               ["Membru", "CMDR · ITI · EAO"],
               ["Limbi", "RO · EN · FR · DE"],
