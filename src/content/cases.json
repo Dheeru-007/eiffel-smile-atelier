@@ -1,0 +1,38 @@
+[
+  {
+    "id": "caz-1",
+    "title": "Caz 1",
+    "beforeImage": "/wp-content/uploads/2021/12/2.jpg",
+    "afterImage": "/wp-content/uploads/2021/12/2A-scaled.jpg"
+  },
+  {
+    "id": "caz-2",
+    "title": "Caz 2",
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3748.jpg",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3749.jpg"
+  },
+  {
+    "id": "caz-3",
+    "title": "Caz 3",
+    "beforeImage": "/wp-content/uploads/2021/12/3.jpg",
+    "afterImage": "/wp-content/uploads/2021/12/3A.jpg"
+  },
+  {
+    "id": "caz-4",
+    "title": "Caz 4",
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3728.jpg",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3731.jpg"
+  },
+  {
+    "id": "caz-5",
+    "title": "Caz 5",
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3735.jpg",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3733.jpg"
+  },
+  {
+    "id": "caz-6",
+    "title": "Caz 6",
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3745.jpg",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3746.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Unitul Stomatologic",
+    "description": "Echipament de ultimă generație, marca Victor Cefla Italy, prevăzut cu fibră optică pentru vizualizarea optimă a zonelor ascunse ale cavității bucale."
+  },
+  {
+    "name": "Lampă Accelerator de Albire (LASER)",
+    "description": "Cel mai avansat sistem de filtrare a luminii polarizate generate de 6 LED-uri, asigurând rezultate spectaculoase în 20 de minute cu risc minim de sensibilizare."
+  },
+  {
+    "name": "Cameră Intraorală",
+    "description": "Dispozitiv tip creion cu minicameră video care permite pacientului și medicului să vizualizeze imaginea mărită și în culori reale a dinților pe monitor."
+  },
+  {
+    "name": "Apex Locator",
+    "description": "Aparat electronic pentru măsurarea cu exactitate a lungimii canalelor radiculare, esențial pentru sigilarea perfectă în tratamentul endodontic."
+  },
+  {
+    "name": "Air Flow",
+    "description": "Dispozitiv modern pentru profilaxie dentară care utilizează apă, aer și pulbere de bicarbonat de sodiu pentru îndepărtarea petelor dificile și lustruire."
+  },
+  {
+    "name": "Scanner Intraoral Medit i500",
+    "description": "Scanner rapid 3D cu două camere pentru realizarea de amprente digitale extrem de precise și export stl, oferind un confort sporit pacientului."
+  }
+]

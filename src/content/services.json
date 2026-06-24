@@ -1,0 +1,32 @@
+[
+  {
+    "n": "01",
+    "t": "Implantologie",
+    "d": "Implantologia este o specialitate chirurgicală care are rolul de a înlocui dinții lipsă sau grav deteriorați, în condiții de siguranță.",
+    "tags": ["Dentis (Korea)", "Straumann (Switzerland)", "Ghid chirurgical", "Adiție os / Sinus lift"]
+  },
+  {
+    "n": "02",
+    "t": "Estetică & Cosmetică",
+    "d": "Estetica dentară presupune o armonizare perfectă între gingii, dinți, gură și zâmbet pentru a putea crea, în funcție de trăsăturile feței, un aspect facial cât mai frumos și mai armonios.",
+    "tags": ["Fațete ceramice E.max", "Fațetare directă", "Bijuterii Swarovski"]
+  },
+  {
+    "n": "03",
+    "t": "Profilaxie & Parodontologie",
+    "d": "Boala parodontală (parodontoză) constituie cea mai importantă cauză a pierderii dinților la 75% dintre adulți. Cu cât depistarea se face mai repede, cu atât tratamentul va fi mai eficient.",
+    "tags": ["Detartraj", "Air-flow", "Periaj profesional", "Chiuretaj parodontal"]
+  },
+  {
+    "n": "04",
+    "t": "Endodonție",
+    "d": "Endodonția ajută la prevenirea, diagnosticarea și tratarea îmbolnăvirii pulpei dentare și a ligamentelor de susținere.",
+    "tags": ["Apex locator", "Endomotor", "Obturație canal la cald 3D"]
+  },
+  {
+    "n": "05",
+    "t": "Albire dentară",
+    "d": "Un zâmbet alb imaculat reprezintă o carte de vizită care completează pozitiv imaginea fiecărui individ.",
+    "tags": ["Albire profesională cu LASER", "Albire internă", "Accelerator de albire"]
+  }
+]

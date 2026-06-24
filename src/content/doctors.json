@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Dr. Cosmin Popescu",
+    "role": "Fondator",
+    "specialization": "Competență implantologie",
+    "quote": "Misiunea noastră este de a ajuta oamenii să aibă un zâmbet frumos și sănătos.",
+    "image": "cosmin-popescu.jpg",
+    "isLead": true
+  },
+  {
+    "name": "Dr. Larisa Pantea",
+    "role": "Medic Specialist",
+    "specialization": "Stomatologie generală",
+    "image": "larisa-pantea.jpg",
+    "isLead": false
+  },
+  {
+    "name": "Dr. Tatiana Solomictaia",
+    "role": "Medic Specialist",
+    "specialization": "Ortodonție",
+    "image": "tatiana-solomictaia.jpg",
+    "isLead": false
+  },
+  {
+    "name": "Mariana Catrinoiu",
+    "role": "Asistent Medical",
+    "specialization": "",
+    "image": "mariana-catrinoiu.jpg",
+    "isLead": false
+  }
+]
