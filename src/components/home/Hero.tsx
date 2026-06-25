@@ -15,7 +15,7 @@ export function Hero() {
     <section ref={ref} className="relative min-h-screen bg-navy-deep text-cream overflow-hidden">
       {/* full bleed hero image */}
       <motion.div style={{ y }} className="absolute inset-0">
-        <img src={heroImg} alt={`Cabinet stomatologic ${clinic.name} Timișoara`} className="h-full w-full object-cover opacity-70" />
+        <img src={heroImg} alt={`Cabinet stomatologic ${clinic.name} Timișoara`} width="2000" height="1333" className="h-full w-full object-cover opacity-70" />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-deep via-transparent to-navy-deep/40" />
       </motion.div>
@@ -44,8 +44,8 @@ export function Hero() {
 
           <div className="mt-10 md:mt-12 grid md:grid-cols-3 gap-8 md:gap-10 items-start">
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ y: 20 }}
+              animate={{ y: 0 }}
               transition={{ duration: 1, ease, delay: 0.6 }}
               className="md:col-span-2 text-lg md:text-xl text-cream/75 font-light max-w-xl leading-relaxed"
             >

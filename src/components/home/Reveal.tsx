@@ -41,6 +41,8 @@ export function ImageReveal({ src, alt, className = "", parallax = false }: { sr
         <motion.img
           src={src}
           alt={alt}
+          width="1200"
+          height="1200"
           style={{ y }}
           className="h-[115%] w-full object-cover"
           loading="lazy"

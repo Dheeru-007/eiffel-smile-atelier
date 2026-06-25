@@ -29,13 +29,13 @@ export function Gallery() {
               <div className="flex flex-col gap-1">
                 <span className="text-[10px] uppercase tracking-wider text-muted-foreground text-center">Înainte</span>
                 <div className="aspect-[4/3] overflow-hidden bg-cream">
-                  <img src={c.beforeImage} alt={`${c.title} înainte`} className="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
+                  <img src={c.beforeImage} alt={`${c.title} înainte`} width="800" height="600" loading="lazy" className="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
                 </div>
               </div>
               <div className="flex flex-col gap-1">
                 <span className="text-[10px] uppercase tracking-wider text-teal text-center font-medium">După</span>
                 <div className="aspect-[4/3] overflow-hidden bg-cream">
-                  <img src={c.afterImage} alt={`${c.title} după`} className="w-full h-full object-cover transition-all duration-500" />
+                  <img src={c.afterImage} alt={`${c.title} după`} width="800" height="600" loading="lazy" className="w-full h-full object-cover transition-all duration-500" />
                 </div>
               </div>
             </div>

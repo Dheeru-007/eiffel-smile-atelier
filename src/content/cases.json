@@ -2,8 +2,8 @@
   {
     "id": "caz-1",
     "title": "Caz 1",
-    "beforeImage": "/wp-content/uploads/2021/12/2.jpg",
-    "afterImage": "/wp-content/uploads/2021/12/2A-scaled.jpg"
+    "beforeImage": "/wp-content/uploads/2021/12/2.webp",
+    "afterImage": "/wp-content/uploads/2021/12/2A-scaled.webp"
   },
   {
     "id": "caz-2",
@@ -15,24 +15,24 @@
     "id": "caz-3",
     "title": "Caz 3",
     "beforeImage": "/wp-content/uploads/2021/12/3.jpg",
-    "afterImage": "/wp-content/uploads/2021/12/3A.jpg"
+    "afterImage": "/wp-content/uploads/2021/12/3A.webp"
   },
   {
     "id": "caz-4",
     "title": "Caz 4",
-    "beforeImage": "/wp-content/uploads/2023/01/IMG_3728.jpg",
-    "afterImage": "/wp-content/uploads/2023/01/IMG_3731.jpg"
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3728.webp",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3731.webp"
   },
   {
     "id": "caz-5",
     "title": "Caz 5",
-    "beforeImage": "/wp-content/uploads/2023/01/IMG_3735.jpg",
-    "afterImage": "/wp-content/uploads/2023/01/IMG_3733.jpg"
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3735.webp",
+    "afterImage": "/wp-content/uploads/2023/01/IMG_3733.webp"
   },
   {
     "id": "caz-6",
     "title": "Caz 6",
-    "beforeImage": "/wp-content/uploads/2023/01/IMG_3745.jpg",
+    "beforeImage": "/wp-content/uploads/2023/01/IMG_3745.webp",
     "afterImage": "/wp-content/uploads/2023/01/IMG_3746.jpg"
   }
 ]

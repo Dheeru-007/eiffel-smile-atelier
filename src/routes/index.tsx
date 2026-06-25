@@ -50,6 +50,8 @@ function Nav() {
           <img
             src={logo}
             alt="Eiffel Praxis"
+            width="100"
+            height="100"
             className="h-8 md:h-9 w-auto brightness-0 invert"
           />
           <span className="flex items-baseline gap-1.5">

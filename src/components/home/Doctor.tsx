@@ -4,10 +4,10 @@ import { Reveal, ease } from "./Reveal";
 import doctors from "@/content/doctors.json";
 
 /* ── Static image imports (Vite requires literal imports) ── */
-import cosminImg from "@/assets/cosmin-popescu.jpg";
-import larisaImg from "@/assets/larisa-pantea.jpg";
-import tatianaImg from "@/assets/tatiana-solomictaia.jpg";
-import marianaImg from "@/assets/mariana-catrinoiu.jpg";
+import cosminImg from "@/assets/cosmin-popescu.webp";
+import larisaImg from "@/assets/larisa-pantea.webp";
+import tatianaImg from "@/assets/tatiana-solomictaia.webp";
+import marianaImg from "@/assets/mariana-catrinoiu.webp";
 
 const imageMap: Record<string, string> = {
   "cosmin-popescu.jpg": cosminImg,
@@ -39,6 +39,8 @@ function StaffCard({ staff }: { staff: StaffEntry }) {
         <motion.img
           src={imageMap[staff.image]}
           alt={staff.name}
+          width="800"
+          height="1000"
           className="absolute inset-0 h-full w-full object-cover"
           loading="lazy"
           animate={{ scale: hovered ? 1.05 : 1 }}

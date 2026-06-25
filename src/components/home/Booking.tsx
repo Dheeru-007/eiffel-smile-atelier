@@ -68,7 +68,7 @@ export function Booking() {
   return (
     <section id="programare" className="relative bg-teal text-cream py-32 md:py-48 px-8 md:px-14 overflow-hidden">
       <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <img src={detailImg} alt="" className="w-full h-full object-cover mix-blend-overlay" />
+        <img src={detailImg} alt="" width="1600" height="1200" className="w-full h-full object-cover mix-blend-overlay" />
       </div>
       <div className="relative grid md:grid-cols-12 gap-12">
         <div className="md:col-span-6">
