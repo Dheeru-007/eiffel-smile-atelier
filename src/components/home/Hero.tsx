@@ -49,7 +49,7 @@ export function Hero() {
               transition={{ duration: 1, ease, delay: 0.6 }}
               className="md:col-span-2 text-lg md:text-xl text-cream/75 font-light max-w-xl leading-relaxed"
             >
-              Stomatologie de autor în inima Timișoarei. Tratamente discrete, tehnologie de ultimă generație și o experiență de peste 10 ani gândită în jurul tău.
+              Stomatologie de autor în inima Timișoarei. Tratamente discrete, tehnologie de ultimă generație și o experiență de peste 15 ani gândită în jurul tău.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

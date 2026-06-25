@@ -77,17 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dental Clinic Website" },
-      { name: "description", content: "Modern dental clinic website." },
-      { property: "og:title", content: "Dental Clinic Website" },
-      { property: "og:description", content: "Modern dental clinic website." },
+      { title: "Eiffel Praxis — Stomatologie de autor în Timișoara" },
+      { name: "description", content: "Cabinet stomatologic premium în Timișoara. Tratamente de calitate în regim personalizat." },
+      { property: "og:title", content: "Eiffel Praxis — Stomatologie de autor în Timișoara" },
+      { property: "og:description", content: "Cabinet stomatologic premium în Timișoara. Tratamente de calitate în regim personalizat." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
     links: [
       {
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon.png",
+      },
+      {
         rel: "canonical",
-        href: "https://example.com",
+        href: "https://eiffelpraxis.ro",
       },
       {
         rel: "stylesheet",
@@ -99,10 +104,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         type: "application/ld+json",
         children: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "Dental Clinic",
-          url: "https://example.com",
-          logo: "https://example.com/logo.png",
+          "@type": "Dentist",
+          name: "Eiffel Praxis",
+          url: "https://eiffelpraxis.ro",
+          telephone: "0756 195 254",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Splaiul Nicolae Titulescu 7",
+            addressLocality: "Timișoara",
+            postalCode: "300160",
+            addressCountry: "RO"
+          }
         }),
       },
     ],

@@ -10,6 +10,7 @@ import { Footer } from "@/components/home/Footer";
 import { StickyMobile } from "@/components/home/StickyMobile";
 import { Reveal } from "@/components/home/Reveal";
 import clinic from "@/content/clinic.json";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -45,10 +46,17 @@ function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 mix-blend-difference text-cream">
       <div className="flex items-center justify-between px-8 py-6 md:px-14">
-        <div className="flex items-baseline gap-2">
-          <span className="font-serif text-2xl tracking-tight italic">Eiffel</span>
-          <span className="eyebrow opacity-70">Praxis</span>
-        </div>
+        <a href="#" className="flex items-center gap-2.5 group">
+          <img
+            src={logo}
+            alt="Eiffel Praxis"
+            className="h-8 md:h-9 w-auto brightness-0 invert"
+          />
+          <span className="flex items-baseline gap-1.5">
+            <span className="font-serif text-2xl tracking-tight italic">Eiffel</span>
+            <span className="eyebrow opacity-70">Praxis</span>
+          </span>
+        </a>
         <nav className="hidden md:flex items-center gap-10 text-[11px] uppercase tracking-[0.28em]">
           <a href="#servicii" className="opacity-80 hover:opacity-100 transition">Servicii</a>
           <a href="#cabinet" className="opacity-80 hover:opacity-100 transition">Cabinet</a>
@@ -63,7 +71,7 @@ function Nav() {
 
 function Marquee() {
   const stats = [
-    { v: "10+ Ani", l: "De funcționare în Timișoara" },
+    { v: "15+ Ani", l: "De funcționare în Timișoara" },
     { v: "Propriu", l: "Laborator de tehnică dentară" },
     { v: "Norme U.E.", l: "Sterilizare & calitate superioară" },
     { v: "Parcare", l: "Locuri suficiente disponibile" },
