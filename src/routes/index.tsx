@@ -65,7 +65,7 @@ function Nav() {
           <a href="#doctor" className="opacity-80 hover:opacity-100 transition">Doctor</a>
           <a href="#programare" className="opacity-80 hover:opacity-100 transition">Contact</a>
         </nav>
-        <a href="#programare" className="eyebrow border-b border-current pb-1">Programare →</a>
+        <a href="#programare" aria-label="Programare din meniu" className="eyebrow border-b border-current pb-1">Programare →</a>
       </div>
     </header>
   );

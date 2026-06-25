@@ -23,10 +23,11 @@ export function Services() {
             <a 
               href="#programare" 
               onClick={() => window.dispatchEvent(new CustomEvent("selectService", { detail: s.t }))}
+              aria-label={`Programare pentru serviciul ${s.t}`}
               className="group grid md:grid-cols-12 gap-6 py-10 md:py-14 border-t border-cream/15 hover:border-gold transition-colors"
             >
               <div className="md:col-span-2">
-                <span className="eyebrow text-cream/40">{s.n}</span>
+                <span className="eyebrow text-cream/70">{s.n}</span>
               </div>
               <div className="md:col-span-4">
                 <h3 className="font-serif text-4xl md:text-5xl font-light group-hover:text-gold group-hover:translate-x-2 transition-all duration-500 ease-out">
